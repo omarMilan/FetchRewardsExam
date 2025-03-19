@@ -47,13 +47,5 @@ cd FetchRewardsExam/Fetch-Dogs-App/backend
 node server.js
 ```
 
-## 📝 API Reference  
-This project interacts with Fetch’s API. See the [official documentation](https://frontend-take-home-service.fetch.com) for more details.  
-
-## 🛠️ Features in Development  
-- More animations with Framer Motion  
-- Improved UI/UX  
-- Better search filtering options  
-
 ## 📄 License  
 This project is for educational and portfolio purposes only.
