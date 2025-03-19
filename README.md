@@ -23,7 +23,7 @@ PetShop Inc. allows users to:
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/PetShop-Inc.git
+git clone https://github.com/omarMilan/FetchRewardsExam.git
 cd PetShop-Inc
 ```
 
