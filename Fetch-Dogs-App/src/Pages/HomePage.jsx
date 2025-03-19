@@ -28,32 +28,33 @@ export default function HomePage() {
 
       {/* Colored Sections Filling the Remaining Screen Height */}
       <div className="flex flex-row flex-grow">
-        <div className="w-full flex-grow flex flex-col px-8 h-full">
-          <div className="w-full flex-grow flex flex-col items-center justify-center px-8 mt-7">
+        <div className="w-full flex flex-col items-center justify-center px-6 sm:px-12 md:px-16 lg:px-20 xl:px-32 py-8 bg-gray-100">
+          <div className="w-full h-full max-w-screen-md sm:max-w-screen-lg md:max-w-screen-xl text-center">
             {/* Title */}
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
-              OUR STORY
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
+              Our Story
             </h2>
 
             {/* Subtitle */}
-            <p className="text-center text-md md:text-lg lg:text-xl text-gray-700 mt-2 max-w-[600px]">
-              Owned & Operated by True Dog Lovers! 🐾❤️
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 mt-4">
+              Owned & Operated by True Dog Lovers
             </p>
 
             {/* Main Paragraph */}
-            <p className="text-center text-sm md:text-md lg:text-lg text-gray-600 mt-4 max-w-[600px]">
-              At <span className="font-bold">PetShop Inc.</span>, we’re on a
-              mission to help every brave, goofy, and lovable pup find their
-              forever home! 🐶✨ What started as a small neighborhood project
-              has grown into a nationwide effort to connect dog lovers with
-              their perfect furry friends. Whether you're looking for a playful
-              companion or a loyal sidekick, we’ve got a pup just waiting to
-              meet you!
+            <p className="text-md sm:text-xs md:text-md min-lg:text-lg text-gray-600 mt-6 leading-relaxed max-w-3xl mx-auto">
+              At{" "}
+              <span className="font-semibold text-gray-900">PetShop Inc.</span>,
+              we are dedicated to helping every brave, goofy, and lovable dog
+              find their forever home. What began as a small neighborhood
+              initiative has evolved into a nationwide effort to connect dog
+              lovers with their perfect companions. Whether you're searching for
+              a playful friend or a loyal partner, we are here to help you find
+              the right match!
             </p>
 
             {/* Call-to-Action Button */}
-            <button className="mt-6 bg-primary text-white px-6 py-3 rounded-lg text-md md:text-lg lg:text-xl font-semibold transition">
-              Get Started!
+            <button className="mt-8 sm:mt-2 lg:mt-2 cursor-pointer bg-gray-900 text-white px-6 py-3 rounded-lg text-md sm:text-xs font-medium transition-transform transform hover:scale-105 hover:bg-gray-800">
+              Get Started
             </button>
           </div>
         </div>
